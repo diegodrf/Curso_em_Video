@@ -7,8 +7,8 @@ from exercicio_35 import Triangulo
 
 if Triangulo.possivel == True:
     if (Triangulo.a == Triangulo.b) and (Triangulo.a == Triangulo.c):
-        print('Triangulo Equilátero')
+        print('Equilátero')
     elif (Triangulo.a == Triangulo.b) or (Triangulo.b == Triangulo.c) or (Triangulo.a == Triangulo.c):
-        print('Triangulo Isósceles')
+        print('Isósceles')
     else:
-        print('Triangulo Escaleno')
+        print('Escaleno')
