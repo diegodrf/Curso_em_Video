@@ -5,8 +5,8 @@
     - Em até 2x no cartão: preço normal;
     - 3x ou mais no cartão: 20% de juros;'''
 
-#valor=float(input('Qual é o valor do produto? R$ '))
-valor = 100
+print('{:=^40}'.format(' LOJAS GUANABARA ')) # ^40 centraliza com 40 caracteres para cada lado, = preenche os espaços com o símbolo =
+valor = float(input('Valor: R$ '))
 modo=int(input('Qual é a forma de pagamento?\n1- Dinheiro / Cheque\n2- Cartão\n'))
 
 if modo == 1:
