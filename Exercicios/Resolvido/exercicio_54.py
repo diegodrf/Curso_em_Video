@@ -1,5 +1,5 @@
 # Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda não atingiram a
-# maioridade e quantas já são maiores. Considere a maioridade em 21 anso.
+# maioridade e quantas já são maiores. Considere a maioridade em 21 anos.
 
 from datetime import date
 

@@ -2,5 +2,6 @@
 n = int(input('Informe o primeiro termo da PA: '))
 r = int(input('Informe a razão da PA: '))
 for c in range(0, r*10, r):
-    print(n)
+    print('{}'.format(n), end=' > ')
     n += r
+print('FIM')

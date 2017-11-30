@@ -7,10 +7,10 @@
 # ANOTARAM A DATA DA MARATONA
 
 frase = str(input('Informe uma frase: ')).replace(' ','').upper()
-frase_invertida = frase[::-1].upper()
+frase_invertida = frase[::-1]
 
 if frase == frase_invertida:
     print('É um palindromo!')
 else:
     print('Não é um palindromo!')
-print('\nFrase original: {}\nFrase invertida: {}'.format(frase, frase_invertida))
+print('\nFrase original:  {}\nFrase invertida: {}'.format(frase, frase_invertida))
